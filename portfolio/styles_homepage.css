@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 1100px;
+    margin: 0;
+    padding: 0;
+    background: url('bg_homepage.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.social-media {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media a {
+    margin: 10px 0;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(101, 97, 97, 0.8);
+    border-radius: 10px;
+    opacity: 0.5; /* 30% opacity */
+}
